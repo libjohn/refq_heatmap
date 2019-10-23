@@ -48,5 +48,8 @@ starwars %>%
   drop_na() %>%
   d3heatmap(scale = "column",
             colors = "Greens")
+```
 
+```{r fig.align="center", fig.cap=, include=FALSE, out.width="50%"}
+knitr::include_graphics("output/hm_spectral.png")
 ```

@@ -45,3 +45,13 @@ starwars %>%
   d3heatmap(scale = "column",
             colors = "Greens")
 ```
+
+<img src="output/hm_spectral.PNG" title="HeatMap with spectral color" alt="HeatMap with spectral color" style="display: block; margin: auto;" />
+
+<br />
+
+<img src="output/hm_blues.PNG" title="HeatMap blue" alt="HeatMap blue" style="display: block; margin: auto;" />
+
+<br />
+
+<img src="output/hm_greens.PNG" title="HeatMap green" alt="HeatMap green" style="display: block; margin: auto;" />

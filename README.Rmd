@@ -11,6 +11,7 @@ knitr::opts_chunk$set(
 )
 ```
 
+
 # refq_heatmap
 
 <!-- badges: start -->
@@ -50,6 +51,20 @@ starwars %>%
             colors = "Greens")
 ```
 
-```{r fig.align="center", fig.cap=, include=FALSE, out.width="50%"}
-knitr::include_graphics("output/hm_spectral.png")
+```{r knitr image, echo=FALSE, fig.align="center", fig.cap="HeatMap with spectral color"}
+knitr::include_graphics("output/hm_spectral.PNG")
 ```
+
+<br />
+
+```{r knitr image blue, echo=FALSE, fig.align="center", fig.cap="HeatMap blue"}
+knitr::include_graphics("output/hm_blues.PNG")
+```
+
+<br />
+
+```{r knitr image2, echo=FALSE, fig.align="center", fig.cap="HeatMap green"}
+knitr::include_graphics("output/hm_greens.PNG")
+```
+
+
